@@ -1,0 +1,7 @@
+cc = gcc 
+cc ?= g++ 
+all:
+	${cc} socket_select_server.c -o socket_select_server 
+
+clean:
+	rm -rf socket_select_server 
